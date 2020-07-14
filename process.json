@@ -1,0 +1,16 @@
+{
+	"apps": [
+		{
+			"name": "api",
+			"script": "./index.js",
+			"node_args": "-r esm",
+			"watch": ["./index.js", "./src/"],
+			"instances": "1",
+			"exec_mode": "fork",
+			"watch_options": {
+				"persistent": true,
+				"ignoreInitial": false
+			}
+		}
+	]
+}
