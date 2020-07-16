@@ -19,7 +19,6 @@
     "express-jwt": "^6.0.0",
     "jsonwebtoken": "^8.5.1",
     "mongodb": "^3.5.9",
-    "nodemon": "^2.0.4",
-    "react-redux": "^7.2.0"
+    "nodemon": "^2.0.4"
   }
 }
